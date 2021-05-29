@@ -1,0 +1,53 @@
+h1{
+    /* 文字の色 */
+    color: red;
+    /* 文字の大きさ */
+    font-size: 50px;
+    /* 文字の太さ */
+    font-weight: bold;
+    /* 背景色 */
+    background-color: blue;
+
+    /* 境界線 */
+    border: 10px solid black;
+
+    /* 色の値の指定の仕方　２種類
+    原色指定
+    16進数⇨#FFFFFF
+    rgb⇨rgb(255,233,6)
+        red green blue
+    rgba⇨a：透過度 */
+
+    /* 境界線に丸み */
+    border-radius: 10px;
+    /* 文字の配置を変える */
+    /* ブロック要素に使用する */
+    text-align: center;
+
+    /* 横幅 */
+    width: 50%;
+
+    /* 高さ */
+    height: 300px;
+
+} 
+
+span{
+    background-color: blue;
+}
+
+h2{
+    color: blue;
+}
+
+.second{
+    color: yellow;
+}
+
+#second{
+    color: green;
+}
+
+.third{
+    color: pink;
+}

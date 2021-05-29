@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    /* flex-directionは縦横を制御する */
+    /* justify-content,align-itemsの使い方を変更する */
+    justify-content: center;
+    /* 水平方向 */
+    align-items: center;
+    /* 垂直方向 */
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color:yellowgreen;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background-color: rgb(7,39,66);
+}
+
+.header-left > img {
+  height: 36px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav > li > a{
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}

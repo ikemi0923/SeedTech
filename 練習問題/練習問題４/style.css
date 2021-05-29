@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5F9EA0;
+}
+.box1{
+    background-color: aqua;
+    width: 100%;
+    height: 40%;
+}
+.box2{
+    background-color: bisque;
+    width: 50%;
+    height: 30%;
+}
+.box3{
+    background:#FF7F52;
+    width: 100%;
+    height: 30%;
+}

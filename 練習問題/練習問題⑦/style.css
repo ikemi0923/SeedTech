@@ -1,0 +1,71 @@
+/* 問題③ */
+/* ブラウザ全体にcssをあて、chromeのもともともつcssを消しましょう */
+
+/* 問題④ */
+/* 見出しの文字（自己紹介）を中央寄せしましょう */
+
+/* 問題⑤ */
+/* class名 containerに背景色:赤、横幅をブラウザ幅、縦幅をブラウザ高さと一緒にするcssを作成しましょう */
+
+/* 問題⑥ */
+/* 自己紹介という文言とブラウザの隙間を調整していきます。
+sectionタグに
+margin: 20px 0;をあてましょう */
+
+/* 問題⑦ */
+/* box1~box3のdivタグの横幅を300px、高さを300pxで背景色を白にして作成してみましょう */
+/* またbox1~box3に枠線をつけましょう（1px、 固定線、黒色） */
+
+/* 問題⑧ */
+/* box1〜box3をclass名 containerのdivに対して、横並びにして、水平方向、垂直方向とも中央に寄せましょう */
+/* justify-content, align-itemsはともにcenterとすること */
+
+/* 問題⑨ 発展（ここは一回一回ブラウザを確認してください）*/
+/* containerクラスの横幅を100vwから80vwにかえて、画面を確認してみましょう */
+/* containerクラスにmargin: 0 autoと記入してみましょう。また画面を確認しましょう */
+/* containerクラスのjustify-contentをcenterからspace-betweenに変更しましょう。またブラウザを確認しましょう */
+/* 背景色；赤をコメントアウトしましょう */
+
+/* 練習問題⑩（発展） */
+/* box1~box2に写真を挿入しましょう→ htmlに戻ります */
+/* 3つのboxにある、imgタグの幅を調整していきます */
+/* 3つのimgタグに class名 imageを付与してください */
+/* imageクラスにwidth:100%;と記入しましょう */
+
+
+/* 下記 答え */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  margin: 20px 0;
+}
+
+.container{
+  /* background-color: red; */
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.box1, .box2, .box3{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.image{
+  width: 100%;
+}

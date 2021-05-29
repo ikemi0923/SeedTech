@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+section{
+    margin: 20px 0;
+}
+.container{
+    /* background-color: red; */
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.box1,.box2,.box3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+.img{
+    width: 100%;
+}

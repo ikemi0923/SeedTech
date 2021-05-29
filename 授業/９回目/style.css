@@ -1,0 +1,22 @@
+/* スマホ画面用 */
+/* PC画面用 */
+h1{
+    font-size: 30px;
+}
+
+/* PC画面用の記述 */
+/* 最小のブラウザの大きさが780pxまでの間では */
+/* ⇨780px以上 */
+/* @media screen and (min-width:780px){
+    h1{
+        font-size: 300px;
+    }
+} */
+
+/* スマホ用 */
+/* ブレイクポイント⇨768pxのこと */
+@media screen and (max-width:768px){
+    h1{
+        font-size: 300px;
+    }
+}
